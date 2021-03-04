@@ -1,3 +1,14 @@
-## ProAnimate is an interactive library of css and react animations
+# ProAnimate
+ProAnimate is an interactive library of animated illustrations with css and react animation tutorials.
 
-[Hosted Live on Heroku](https://proanimate.herokuapp.com)
+### Technologies Used
+- JavaScript
+- React
+- Redux
+- PostgreSQL
+- Heroku
+- Illustrator
+- AfterEffects
+- XD
+
+#### [Hosted Live on Heroku](https://proanimate.herokuapp.com)
