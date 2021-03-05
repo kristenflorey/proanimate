@@ -1,34 +1,55 @@
 .home-landscape {
-    position: absolute;
-    bottom: 0;
-    width: 2390px;
-    margin: 0 0 -165px -710px;
+  position: absolute;
+  bottom: 0;
+  width: 2300px;
+  margin: 0 0 -165px -710px;
 }
 
 .home-logo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 600px;
-    height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 580px;
+  height: auto;
 }
 
 .sunrise-balloon {
-    height: 200px;
-    margin: 100px 0 0 930px;
-    animation-name: floating; 
-    animation-duration: 3s; 
-    animation-iteration-count: infinite; 
-    animation-timing-function: ease-in-out;
+  height: 190px;
+  margin: 100px 0 0 700px;
+  animation-name: floating;
+  animation-duration: 5.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 
-@keyframes floating { 
-    0% { transform: translate(0,  0px); } 
-    50%  { transform: translate(0, 15px); } 
-    100%   { transform: translate(0, -0px); }     
-} 
+.striped-balloon {
+  height: 70px;
+  margin-top: 100px;
+  margin-left: 200px;
+  animation-name: floating;
+  animation-duration: 4.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
 
 .right-cloud {
-    height: 200px;
-    margin: -90px 0px 0 1110px;
+  height: 180px;
+  margin: -100px 0px 0 1090px;
+}
+
+.left-cloud {
+  height: 150px;
+  margin-top: -120px;
 }
