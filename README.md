@@ -1,3 +1,14 @@
-## Welcome to Zoologic!
+# ProAnimate
+ProAnimate is an interactive library of animated illustrations with css and react animation tutorials.
 
-[Hosted Live on Heroku](https://zoologic.herokuapp.com)
+### Technologies Used
+- JavaScript
+- React
+- Redux
+- PostgreSQL
+- Heroku
+- Illustrator
+- AfterEffects
+- XD
+
+#### [Hosted Live on Heroku](https://proanimate.herokuapp.com)
