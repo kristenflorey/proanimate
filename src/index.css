@@ -1,1 +1,8 @@
 /* TODO Add site wide styles */
+html {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(to right bottom, #f5e674, #dee76e, #c4e76c, #a7e76e, #85e774, #66e283, #44dd92, #00d79f, #00cbad, #00bdb6, #00afb9, #10a1b5);
+}

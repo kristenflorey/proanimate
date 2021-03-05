@@ -7,8 +7,7 @@ import Home from './components/Home';
 const App = () => {
   return (
     <>
-      <h1>Stay tuned...</h1>
-      <Navigation />
+      <Home />
     </>
   );
 }
