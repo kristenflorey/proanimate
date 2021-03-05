@@ -2,7 +2,7 @@ import React from "react";
 import "./home.css";
 import "./birds.css";
 import Navigation from "../Navigation";
-import landscape from "../../img/landscape-home.png";
+import landscape from "../../img/landscape-edit2.svg";
 import sun_logo from "../../img/pro-logo.png";
 import sunrise_balloon from "../../img/sunrise-balloon.png";
 import striped_balloon from "../../img/striped-balloon.png";

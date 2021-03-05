@@ -1,9 +1,20 @@
 .home-landscape {
-  position: absolute;
-  bottom: 0;
-  width: 2300px;
-  margin: 0 0 -165px -710px;
+    position: absolute;
+    bottom: -150px;
+    /* right: -50; */
+    left: -450px;
+    width: auto;
+    height: 500px;
+    /* object-fit: fill */
+    /* margin: 0 0 -165px -710px; */
 }
+
+  /* .main-home {
+      background-image: url(../../img/landscape-edit2.svg) no repeat center bottom fixed;
+      background-size: cover;
+      bottom: 0;
+      /* background-position: center bottom; */
+
 
 .home-logo {
   position: absolute;
