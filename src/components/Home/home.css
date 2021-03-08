@@ -13,6 +13,25 @@
   height: auto;
 }
 
+.main-home {
+    background-image: linear-gradient(
+        to right bottom,
+        #f5e674,
+        #dee76e,
+        #c4e76c,
+        #a7e76e,
+        #85e774,
+        #66e283,
+        #44dd92,
+        #00d79f,
+        #00cbad,
+        #00bdb6,
+        #00afb9,
+        #10a1b5
+      );
+      background-size: 100% 100%;
+}
+
 .sunrise-balloon {
   height: 190px;
   margin: 100px 0 0 700px;
