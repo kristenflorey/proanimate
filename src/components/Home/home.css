@@ -1,8 +1,8 @@
 .home-landscape {
   position: absolute;
   bottom: 0;
-  width: 2300px;
-  margin: 0 0 -165px -710px;
+  width: 100%;
+  /* margin: 0 0 -165px -710px; */
 }
 
 .home-logo {
@@ -13,7 +13,18 @@
   height: auto;
 }
 
-.main-home {
+.home-illustration-1 {
+  background-image: url('../../img/home-landscape-full.png');
+  background-size: 100% 100%;
+}
+
+/* .home-illustration-2 {
+  background-image: url('../../img/desert-sun.png');
+  background-size: 100% 100%;
+} */
+
+
+/* .main-home {
     background-image: linear-gradient(
         to right bottom,
         #f5e674,
@@ -30,7 +41,7 @@
         #10a1b5
       );
       background-size: 100% 100%;
-}
+} */
 
 .sunrise-balloon {
   height: 190px;
