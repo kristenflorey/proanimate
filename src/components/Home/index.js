@@ -2,26 +2,15 @@ import React from "react";
 import "./home.css";
 import "./birds.css";
 import Navigation from "../Navigation";
-import landscape from "../../img/landscape-home.png";
-import sun_logo from "../../img/pro-logo.png";
 import sunrise_balloon from "../../img/sunrise-balloon.png";
 import striped_balloon from "../../img/striped-balloon.png";
-import right_cloud from "../../img/right-cloud.png";
-import left_cloud from "../../img/left-cloud.png";
-import desert_landscape from "../../img/desert-sun.png";
+import tumbleweed from "../../img/tumbleweed.svg"
 
 const Home = () => {
     return (
             <div className="main-home">
                 <Navigation />
-                <div className="home-illustration-1">
-                    {/* <img className="home-logo" alt="home-logo" src={sun_logo}/>
-                    <img className="home-landscape" alt="home-landscape" src={landscape}/> */}
-                    <img className="striped-balloon" alt="striped-balloon" src={striped_balloon}/>
-                    <img className="sunrise-balloon" alt="sunrise-balloon" src={sunrise_balloon}/>
-                    {/* <img className="right-cloud" alt="right-cloud" src={right_cloud}/>
-                    <img className="left-cloud" alt="left-cloud" src={left_cloud}/> */}
-
+                <section id="home-illustration-1">
                     <div class="container">
                         <div class="bird-container--one">
                             <div class="bird--one"></div>
@@ -39,10 +28,17 @@ const Home = () => {
                             <div class="bird--four"></div>
                         </div>
                     </div>
-                </div>
-                <div className="home-illustration-2">
-                {/* <img className="desert-landscape" alt="desert-landscape" src={desert_landscape} /> */}
-                </div>
+                    <img className="striped-balloon" alt="striped-balloon" src={striped_balloon}/>
+                    <img className="sunrise-balloon" alt="sunrise-balloon" src={sunrise_balloon}/>
+
+                </section>
+                <section id="home-illustration-2">
+                    <img className="tumbleweed" alt="tumbleweed" src={tumbleweed} />
+                </section>
+                <section id="home-illustration-3">
+                </section>
+                <section id="home-illustration-4">
+                </section>
 
             </div>
     )
