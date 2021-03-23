@@ -21,8 +21,6 @@ const Home = () => {
                 </section>
                 <section id="home-illustration-4">
                 </section>
-                </div>
-
             </div>
     )
 }
