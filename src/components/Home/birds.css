@@ -1,25 +1,20 @@
-*,
+/* *,
 *::before,
 *::after {
 	box-sizing: border-box;
-}
+} */
 
-.container {
-	z-index: 1;
+/* .container {
+	z-index: 2;
 	position: relative;
 	overflow: hidden;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	min-height: 100vh;
-	min-height: 35rem;
-	margin-top: -300px;
-	/* background-image: linear-gradient(to bottom,  rgba(255,168,76,0.6) 0%,rgba(255,123,13,0.6) 100%), url('https://images.unsplash.com/photo-1446824505046-e43605ffb17f'); */
-	/* background-blend-mode: soft-light; */
-	/* background-size: cover; */
-	/* background-position: center center; */
-	/* padding: 2rem; */
-}
+	height: 100vh;
+	height: 35rem;
+	width: 100%;
+} */
 
 .bird--one {
 	background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/174479/bird-cells-new.svg);

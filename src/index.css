@@ -1,9 +1,20 @@
 /* TODO Add site wide styles */
 /* html {
     height: 100%;
-} */
+}
 
 body {
+  margin: 0;
+  height: 100%;
+  width: auto;
+  background-size: 100% 100%;
+}
+
+main {
+  display: flex;
+  position: relative;
+} */
+/* body {
   background-image: linear-gradient(
     to right bottom,
     #f5e674,
@@ -19,4 +30,5 @@ body {
     #00afb9,
     #10a1b5
   );
-}
+  background-size: 100% 100%;
+} */

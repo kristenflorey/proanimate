@@ -11,4 +11,3 @@ ProAnimate is an interactive library of animated illustrations with css and reac
 - AfterEffects
 - XD
 
-#### [Hosted Live on Heroku](https://proanimate.herokuapp.com)
